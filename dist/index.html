@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bee Game</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button id="editButton" style="display: none;">Edit</button>
+        <button id="submitButton">Submit</button>
+      </div>
+      <div id="output"></div>
+
+      <div id="command-console">
+        <div id="hivehealth"></div>
+        <button id="addworker">Add extra Worker Bee</button>
+        <button id="adddrone">Add extra Drone Bee</button>
+      </div>
+      <button id="hit">Hit the hive</button>
+      <button id="reset">Reset the game</button>
+      <div id="game-box">
+        <div id="queen" class="bee-type-container"></div>
+        <div id="worker" class="bee-type-container"></div>
+        <div id="drone" class="bee-type-container"></div>
+      </div>
+      
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
