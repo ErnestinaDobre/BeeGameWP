@@ -1,5 +1,5 @@
 # BeeGameWP
-In order to run in and make changes in the code, you must install npm
+In order to run in and make changes in the code, you must install npm (npm i command)
 
 Also, webpack was used for this, to compile each time use 'npx webpack' command
 
