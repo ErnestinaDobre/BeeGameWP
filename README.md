@@ -1,4 +1,7 @@
 # BeeGameWP
+In order to run in and make changes in the code, you must install npm
+
+Also, webpack was used for this, to compile each time use 'npx webpack' command
 
 The Bee game
 The story
