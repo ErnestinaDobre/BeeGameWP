@@ -32,7 +32,7 @@ export class GameMem {
         
         const queenBee = this.board.allBees.filter((bee: Entity) => bee.getType() === EntityType.QUEEN);
         const restOfBees = this.board.allBees.find((bee: Entity) => bee.getType() !== EntityType.QUEEN && bee.getType() !== undefined);
-        console.log(queenBee)
+
         
         if ((queenBee && queenBee.some(queen => queen.getHp() <= 0)) || !restOfBees.isAlive()) {
             return true;
@@ -60,7 +60,6 @@ export class GameMem {
         this.board = new Board();
         this.board.initFromLoad(savedBoard._allBees);
 
-        console.log('LOADED GAME:', this.board);
     }
 
     /**
