@@ -16,7 +16,7 @@ export const handleHitButtonClick = (game: GameMem, uiGraphics: UI) => {
       uiGraphics.refreshBoard();
     } else {
       game.resetGame();
-      alert('Game is over');
+      alert('Humans have killed all bees. Game over');
       uiGraphics.refreshBoard();
     }
   });

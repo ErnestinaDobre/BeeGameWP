@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "devDependencies": {
+    "@babel/preset-typescript": "^7.22.5",
     "ts-loader": "^9.4.4",
     "typescript": "^5.1.6"
   },

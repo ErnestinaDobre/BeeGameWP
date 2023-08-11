@@ -25,7 +25,7 @@ export class BeeUI {
      */
     display(): HTMLElement {
         const result = document.createElement('div');
-        const h2Header = document.createElement('h2');
+        const h2Header = document.createElement('p');
         let btype = '';
 
         switch (this.bee.getType()) {
